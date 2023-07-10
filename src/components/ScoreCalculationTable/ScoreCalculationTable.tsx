@@ -31,9 +31,9 @@ class ScoreCalculationTable extends React.Component<ScoreCalculationTableProps> 
           <tbody>
             {Object.entries(riskScoreModel.model).map(([index, item]) => {
               const featureName = Object.keys(item)[0];
-              const coefficient = Object.values(item)[0];
-              const featureAlias = featureAliasList[index];
-              const featureDesc = featureDescriptionList[index];
+              const coefficient = Object.values(item)[0] as string;
+              const featureAlias = featureAliasList[parseInt(index)];
+              const featureDesc = featureDescriptionList[parseInt(index)];
 
               const tooltip = (
                 <Tooltip id={`tooltip-${index}`}>{featureDesc}</Tooltip>

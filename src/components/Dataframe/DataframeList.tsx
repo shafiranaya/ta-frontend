@@ -91,11 +91,11 @@ export default function DataframeList(props: Props) {
     return blockedAccounts.includes(accountId);
   };
 
-  const isAccountClicked = (accountId: string) => {
-    return (
-      clickedAccounts.hasOwnProperty(accountId) && clickedAccounts[accountId]
-    );
-  };
+  // const isAccountClicked = (accountId: string) => {
+  //   return (
+  //     clickedAccounts.hasOwnProperty(accountId) && clickedAccounts[accountId]
+  //   );
+  // };
 
   const handleClick = (accountId: string) => {
     setClickedAccounts((prevClickedAccounts) => ({
@@ -227,7 +227,6 @@ export default function DataframeList(props: Props) {
                 {isAccountBlocked(row.account_id) ? (
                   <Button
                     // variant="danger"
-                    block
                     disabled={isAccountBlocked(row.account_id)}
                     size="sm"
                     //  className="badge bg-danger"
@@ -238,7 +237,6 @@ export default function DataframeList(props: Props) {
                   <div>
                     <Button
                       // variant="danger"
-                      block
                       disabled={isAccountBlocked(row.account_id)}
                       onClick={() => handleClick(row.account_id)}
                       size="sm"

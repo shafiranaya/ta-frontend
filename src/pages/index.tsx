@@ -90,12 +90,12 @@ const Dataframes: NextPage<Props> = (props) => {
 
   console.log("MODEL DATA", modelData);
 
-  const [insightData, setInsightData] = useState<Insight | null>(null);
+  const [insightData, setInsightData] = useState<Insight[] | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get<Insight>(
+        const response = await axios.get<Insight[]>(
           `${process.env.NEXT_PUBLIC_API_BASE_URL}insight/${modelIndex}`
         );
         setInsightData(response.data);
@@ -122,7 +122,9 @@ const Dataframes: NextPage<Props> = (props) => {
     router.push({ pathname: router.pathname, query });
   };
 
-  const handleModelIndexChange = (event) => {
+  const handleModelIndexChange = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
     const selectedModelIndex = event.target.value;
     console.log("Selected model_index:", selectedModelIndex);
 
@@ -188,10 +190,10 @@ const Dataframes: NextPage<Props> = (props) => {
       },
       transformResponse: transformResponseWrapper((d: Dataframe[], h) => {
         const total = h ? parseInt(h["x-total-count"], 10) : 0;
-        console.log("total count: ", h["x-total_count"]);
-        console.log("Headers: ", h);
+        // console.log("total count: ", h["x-total_count"]);
+        // console.log("Headers: ", h);
 
-        console.log("total: ", total);
+        // console.log("total: ", total);
 
         return newResource(d, total, page, perPage);
       }),
