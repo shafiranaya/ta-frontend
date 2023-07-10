@@ -57,13 +57,13 @@ export default function DataframeList(props: Props) {
   //   const { dataframes, setSort, setOrder } = props;
   const featureKeys = Object.keys(dataframes[0]?.feature_score || {});
 
-  const [blockedAccounts, setBlockedAccounts] = useState([]);
+  const [blockedAccounts, setBlockedAccounts] = useState<string[]>([]);
   const [selectedAccount, setSelectedAccount] = useState(null);
   const [isBlockModalOpen, setIsBlockModalOpen] = useState(false);
-  const [clickedAccounts, setClickedAccounts] = useState({});
+  const [clickedAccounts, setClickedAccounts] = useState<string[]>([]);
 
-  const openBlockModal = (accountId) => {
-    setSelectedAccount(accountId);
+  const openBlockModal = (accountId: string) => {
+    // setSelectedAccount(accountId);
     setIsBlockModalOpen(true);
   };
 
@@ -72,7 +72,7 @@ export default function DataframeList(props: Props) {
     setIsBlockModalOpen(false);
   };
 
-  const handleBlockAccount = async (accountId) => {
+  const handleBlockAccount = async (accountId: string) => {
     try {
       // Make an API request to block the account
       await axios.put(
@@ -87,17 +87,17 @@ export default function DataframeList(props: Props) {
     }
   };
 
-  const isAccountBlocked = (accountId) => {
+  const isAccountBlocked = (accountId: string) => {
     return blockedAccounts.includes(accountId);
   };
 
-  const isAccountClicked = (accountId) => {
+  const isAccountClicked = (accountId: string) => {
     return (
       clickedAccounts.hasOwnProperty(accountId) && clickedAccounts[accountId]
     );
   };
 
-  const handleClick = (accountId) => {
+  const handleClick = (accountId: string) => {
     setClickedAccounts((prevClickedAccounts) => ({
       ...prevClickedAccounts,
       [accountId]: true,
