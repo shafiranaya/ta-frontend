@@ -1,9 +1,10 @@
+/* eslint-disable no-console */
 import { GetServerSideProps, NextPage } from 'next'
 import { Card } from 'react-bootstrap'
-import { PokemonList } from '@components/Pokemon'
+import { DataframeList } from '@components/Dataframe'
 import { AdminLayout } from '@layout'
 import React, { useEffect, useState } from 'react'
-import { Pokemon } from '@models/pokemon'
+import { Dataframe } from '@models/dataframe'
 import { newResource, Resource } from '@models/resource'
 import { transformResponseWrapper, useSWRAxios } from '@hooks'
 import { Pagination } from '@components/Pagination'
@@ -17,7 +18,10 @@ type Props = {
 
 const Client: NextPage<Props> = (props) => {
   const {
-    page: initPage, perPage: initPerPage, sort: initSort, order: initOrder,
+    page: initPage,
+    perPage: initPerPage,
+    sort: initSort,
+    order: initOrder,
   } = props
 
   const [page, setPage] = useState(initPage)
@@ -25,31 +29,36 @@ const Client: NextPage<Props> = (props) => {
   const [sort, setSort] = useState(initSort)
   const [order, setOrder] = useState(initOrder)
 
-  const pokemonListURL = `${process.env.NEXT_PUBLIC_POKEMON_LIST_API_BASE_URL}pokemons` || ''
+  const listURL = `${process.env.NEXT_PUBLIC_API_BASE_URL}prediction` || ''
 
-  const [fallbackResource, setFallbackResource] = useState<Resource<Pokemon>>(
+  const [fallbackResource, setFallbackResource] = useState<Resource<Dataframe>>(
     newResource([], 0, page, perPage),
   )
 
   // swr: data -> axios: data -> resource: data
-  const { data: { data: resource } } = useSWRAxios<Resource<Pokemon>>({
-    url: pokemonListURL,
-    params: {
-      _page: page,
-      _limit: perPage,
-      _sort: sort,
-      _order: order,
+  const {
+    data: { data: resource },
+  } = useSWRAxios<Resource<Dataframe>>(
+    {
+      url: listURL,
+      params: {
+        _page: page,
+        _limit: perPage,
+        _sort: sort,
+        _order: order,
+      },
+      transformResponse: transformResponseWrapper((d: Dataframe[], h) => {
+        const total = h ? parseInt(h['x-total-count'], 10) : 0
+        return newResource(d, total, page, perPage)
+      }),
     },
-    transformResponse: transformResponseWrapper((d: Pokemon[], h) => {
-      const total = h ? parseInt(h['x-total-count'], 10) : 0
-      return newResource(d, total, page, perPage)
-    }),
-  }, {
-    data: fallbackResource,
-    headers: {
-      'x-total-count': '0',
+    {
+      data: fallbackResource,
+      headers: {
+        'x-total-count': '0',
+      },
     },
-  })
+  )
 
   useEffect(() => {
     setFallbackResource(resource)
@@ -58,15 +67,15 @@ const Client: NextPage<Props> = (props) => {
   return (
     <AdminLayout>
       <Card>
-        <Card.Header>Pokémon</Card.Header>
+        <Card.Header>User Detail</Card.Header>
         <Card.Body>
           <Pagination
             meta={resource.meta}
             setPerPage={setPerPage}
             setPage={setPage}
           />
-          <PokemonList
-            pokemons={resource.data}
+          <DataframeList
+            dataframes={resource.data}
             setSort={setSort}
             setOrder={setOrder}
           />
@@ -76,7 +85,9 @@ const Client: NextPage<Props> = (props) => {
   )
 }
 
-export const getServerSideProps: GetServerSideProps<Props> = async (context) => {
+export const getServerSideProps: GetServerSideProps<Props> = async (
+  context,
+) => {
   let page = 1
   if (context.query?.page && typeof context.query.page === 'string') {
     page = parseInt(context.query.page, 10)
@@ -87,7 +98,7 @@ export const getServerSideProps: GetServerSideProps<Props> = async (context) => 
     perPage = parseInt(context.query.per_page.toString(), 10)
   }
 
-  let sort = 'id'
+  let sort = 'account_id'
   if (context.query?.sort && typeof context.query.sort === 'string') {
     sort = context.query.sort
   }

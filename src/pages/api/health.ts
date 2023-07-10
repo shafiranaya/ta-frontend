@@ -5,7 +5,9 @@ type Data = {
   health: boolean;
 }
 
-export default function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
-  res.status(200)
-    .json({ health: true })
+export default function handler(
+  req: NextApiRequest,
+  res: NextApiResponse<Data>,
+) {
+  res.status(200).json({ health: true })
 }

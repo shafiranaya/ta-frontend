@@ -1,0 +1,2802 @@
+[
+  {
+    "account_id": 0,
+    "feature_score": [
+      {
+        "feature_name": "elit",
+        "score": -5
+      },
+      {
+        "feature_name": "consectetur",
+        "score": -5
+      },
+      {
+        "feature_name": "enim",
+        "score": 5
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 3
+      },
+      {
+        "feature_name": "ad",
+        "score": 0
+      }
+    ],
+    "total_score": 0,
+    "risk_percentage": 17,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 1,
+    "feature_score": [
+      {
+        "feature_name": "aute",
+        "score": -3
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 0
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 5
+      },
+      {
+        "feature_name": "enim",
+        "score": 0
+      },
+      {
+        "feature_name": "mollit",
+        "score": 5
+      }
+    ],
+    "total_score": -16,
+    "risk_percentage": 47,
+    "label": "fraud"
+  },
+  {
+    "account_id": 2,
+    "feature_score": [
+      {
+        "feature_name": "reprehenderit",
+        "score": -4
+      },
+      {
+        "feature_name": "ullamco",
+        "score": -5
+      },
+      {
+        "feature_name": "quis",
+        "score": -3
+      },
+      {
+        "feature_name": "velit",
+        "score": -3
+      },
+      {
+        "feature_name": "pariatur",
+        "score": 2
+      }
+    ],
+    "total_score": -17,
+    "risk_percentage": 12,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 3,
+    "feature_score": [
+      {
+        "feature_name": "eu",
+        "score": 5
+      },
+      {
+        "feature_name": "incididunt",
+        "score": -3
+      },
+      {
+        "feature_name": "elit",
+        "score": -3
+      },
+      {
+        "feature_name": "qui",
+        "score": 4
+      },
+      {
+        "feature_name": "exercitation",
+        "score": -1
+      }
+    ],
+    "total_score": 9,
+    "risk_percentage": 60,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 4,
+    "feature_score": [
+      {
+        "feature_name": "in",
+        "score": 3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -5
+      },
+      {
+        "feature_name": "fugiat",
+        "score": -5
+      },
+      {
+        "feature_name": "aliquip",
+        "score": -5
+      },
+      {
+        "feature_name": "ea",
+        "score": -2
+      }
+    ],
+    "total_score": 17,
+    "risk_percentage": 90,
+    "label": "fraud"
+  },
+  {
+    "account_id": 5,
+    "feature_score": [
+      {
+        "feature_name": "irure",
+        "score": -2
+      },
+      {
+        "feature_name": "minim",
+        "score": -5
+      },
+      {
+        "feature_name": "proident",
+        "score": 2
+      },
+      {
+        "feature_name": "officia",
+        "score": -5
+      },
+      {
+        "feature_name": "labore",
+        "score": 0
+      }
+    ],
+    "total_score": 7,
+    "risk_percentage": 92,
+    "label": "fraud"
+  },
+  {
+    "account_id": 6,
+    "feature_score": [
+      {
+        "feature_name": "cupidatat",
+        "score": 4
+      },
+      {
+        "feature_name": "culpa",
+        "score": 1
+      },
+      {
+        "feature_name": "minim",
+        "score": 5
+      },
+      {
+        "feature_name": "elit",
+        "score": 3
+      },
+      {
+        "feature_name": "qui",
+        "score": 1
+      }
+    ],
+    "total_score": 5,
+    "risk_percentage": 89,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 7,
+    "feature_score": [
+      {
+        "feature_name": "adipisicing",
+        "score": 1
+      },
+      {
+        "feature_name": "et",
+        "score": 4
+      },
+      {
+        "feature_name": "ex",
+        "score": -1
+      },
+      {
+        "feature_name": "culpa",
+        "score": 2
+      },
+      {
+        "feature_name": "nostrud",
+        "score": -1
+      }
+    ],
+    "total_score": 14,
+    "risk_percentage": 43,
+    "label": "fraud"
+  },
+  {
+    "account_id": 8,
+    "feature_score": [
+      {
+        "feature_name": "ea",
+        "score": -2
+      },
+      {
+        "feature_name": "sit",
+        "score": -1
+      },
+      {
+        "feature_name": "nisi",
+        "score": -5
+      },
+      {
+        "feature_name": "velit",
+        "score": -2
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 1
+      }
+    ],
+    "total_score": -20,
+    "risk_percentage": 65,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 9,
+    "feature_score": [
+      {
+        "feature_name": "sunt",
+        "score": 4
+      },
+      {
+        "feature_name": "aute",
+        "score": 3
+      },
+      {
+        "feature_name": "amet",
+        "score": 3
+      },
+      {
+        "feature_name": "veniam",
+        "score": -5
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": -1
+      }
+    ],
+    "total_score": 11,
+    "risk_percentage": 51,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 10,
+    "feature_score": [
+      {
+        "feature_name": "veniam",
+        "score": 1
+      },
+      {
+        "feature_name": "enim",
+        "score": -4
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": 3
+      },
+      {
+        "feature_name": "cillum",
+        "score": -3
+      },
+      {
+        "feature_name": "amet",
+        "score": -2
+      }
+    ],
+    "total_score": -7,
+    "risk_percentage": 13,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 11,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 5
+      },
+      {
+        "feature_name": "voluptate",
+        "score": 3
+      },
+      {
+        "feature_name": "quis",
+        "score": 0
+      },
+      {
+        "feature_name": "est",
+        "score": -1
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": -3
+      }
+    ],
+    "total_score": -15,
+    "risk_percentage": 82,
+    "label": "fraud"
+  },
+  {
+    "account_id": 12,
+    "feature_score": [
+      {
+        "feature_name": "ea",
+        "score": 4
+      },
+      {
+        "feature_name": "cillum",
+        "score": 2
+      },
+      {
+        "feature_name": "esse",
+        "score": 1
+      },
+      {
+        "feature_name": "mollit",
+        "score": -1
+      },
+      {
+        "feature_name": "nulla",
+        "score": -4
+      }
+    ],
+    "total_score": -13,
+    "risk_percentage": 87,
+    "label": "fraud"
+  },
+  {
+    "account_id": 13,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 0
+      },
+      {
+        "feature_name": "amet",
+        "score": -1
+      },
+      {
+        "feature_name": "laboris",
+        "score": 5
+      },
+      {
+        "feature_name": "amet",
+        "score": -2
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -2
+      }
+    ],
+    "total_score": 15,
+    "risk_percentage": 68,
+    "label": "fraud"
+  },
+  {
+    "account_id": 14,
+    "feature_score": [
+      {
+        "feature_name": "deserunt",
+        "score": -5
+      },
+      {
+        "feature_name": "consequat",
+        "score": -5
+      },
+      {
+        "feature_name": "adipisicing",
+        "score": -5
+      },
+      {
+        "feature_name": "exercitation",
+        "score": 0
+      },
+      {
+        "feature_name": "velit",
+        "score": 3
+      }
+    ],
+    "total_score": 7,
+    "risk_percentage": 56,
+    "label": "fraud"
+  },
+  {
+    "account_id": 15,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 5
+      },
+      {
+        "feature_name": "eu",
+        "score": -2
+      },
+      {
+        "feature_name": "et",
+        "score": 0
+      },
+      {
+        "feature_name": "officia",
+        "score": -3
+      },
+      {
+        "feature_name": "mollit",
+        "score": 4
+      }
+    ],
+    "total_score": 14,
+    "risk_percentage": 95,
+    "label": "fraud"
+  },
+  {
+    "account_id": 16,
+    "feature_score": [
+      {
+        "feature_name": "adipisicing",
+        "score": 5
+      },
+      {
+        "feature_name": "tempor",
+        "score": 1
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 2
+      },
+      {
+        "feature_name": "sit",
+        "score": -3
+      },
+      {
+        "feature_name": "tempor",
+        "score": -2
+      }
+    ],
+    "total_score": 12,
+    "risk_percentage": 57,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 17,
+    "feature_score": [
+      {
+        "feature_name": "aliqua",
+        "score": 3
+      },
+      {
+        "feature_name": "ea",
+        "score": 0
+      },
+      {
+        "feature_name": "dolore",
+        "score": 0
+      },
+      {
+        "feature_name": "pariatur",
+        "score": -2
+      },
+      {
+        "feature_name": "tempor",
+        "score": 0
+      }
+    ],
+    "total_score": -7,
+    "risk_percentage": 9,
+    "label": "fraud"
+  },
+  {
+    "account_id": 18,
+    "feature_score": [
+      {
+        "feature_name": "nostrud",
+        "score": 5
+      },
+      {
+        "feature_name": "incididunt",
+        "score": -4
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 1
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 4
+      },
+      {
+        "feature_name": "amet",
+        "score": 1
+      }
+    ],
+    "total_score": 13,
+    "risk_percentage": 15,
+    "label": "fraud"
+  },
+  {
+    "account_id": 19,
+    "feature_score": [
+      {
+        "feature_name": "id",
+        "score": -4
+      },
+      {
+        "feature_name": "eu",
+        "score": -1
+      },
+      {
+        "feature_name": "culpa",
+        "score": 5
+      },
+      {
+        "feature_name": "dolor",
+        "score": -4
+      },
+      {
+        "feature_name": "magna",
+        "score": 2
+      }
+    ],
+    "total_score": 16,
+    "risk_percentage": 1,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 20,
+    "feature_score": [
+      {
+        "feature_name": "mollit",
+        "score": 3
+      },
+      {
+        "feature_name": "officia",
+        "score": 3
+      },
+      {
+        "feature_name": "deserunt",
+        "score": 5
+      },
+      {
+        "feature_name": "nulla",
+        "score": 4
+      },
+      {
+        "feature_name": "Lorem",
+        "score": 5
+      }
+    ],
+    "total_score": 2,
+    "risk_percentage": 5,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 21,
+    "feature_score": [
+      {
+        "feature_name": "nulla",
+        "score": -2
+      },
+      {
+        "feature_name": "cillum",
+        "score": 3
+      },
+      {
+        "feature_name": "est",
+        "score": -3
+      },
+      {
+        "feature_name": "minim",
+        "score": -4
+      },
+      {
+        "feature_name": "magna",
+        "score": 1
+      }
+    ],
+    "total_score": 0,
+    "risk_percentage": 55,
+    "label": "fraud"
+  },
+  {
+    "account_id": 22,
+    "feature_score": [
+      {
+        "feature_name": "dolor",
+        "score": -5
+      },
+      {
+        "feature_name": "minim",
+        "score": 0
+      },
+      {
+        "feature_name": "nulla",
+        "score": -1
+      },
+      {
+        "feature_name": "fugiat",
+        "score": 5
+      },
+      {
+        "feature_name": "nisi",
+        "score": -3
+      }
+    ],
+    "total_score": -6,
+    "risk_percentage": 89,
+    "label": "fraud"
+  },
+  {
+    "account_id": 23,
+    "feature_score": [
+      {
+        "feature_name": "Lorem",
+        "score": 5
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 3
+      },
+      {
+        "feature_name": "esse",
+        "score": -4
+      },
+      {
+        "feature_name": "irure",
+        "score": -2
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 0
+      }
+    ],
+    "total_score": -18,
+    "risk_percentage": 37,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 24,
+    "feature_score": [
+      {
+        "feature_name": "et",
+        "score": 4
+      },
+      {
+        "feature_name": "minim",
+        "score": 3
+      },
+      {
+        "feature_name": "consectetur",
+        "score": -1
+      },
+      {
+        "feature_name": "consectetur",
+        "score": 3
+      },
+      {
+        "feature_name": "mollit",
+        "score": -2
+      }
+    ],
+    "total_score": -8,
+    "risk_percentage": 62,
+    "label": "fraud"
+  },
+  {
+    "account_id": 25,
+    "feature_score": [
+      {
+        "feature_name": "velit",
+        "score": 2
+      },
+      {
+        "feature_name": "quis",
+        "score": 2
+      },
+      {
+        "feature_name": "fugiat",
+        "score": 0
+      },
+      {
+        "feature_name": "esse",
+        "score": 3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": 3
+      }
+    ],
+    "total_score": 15,
+    "risk_percentage": 21,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 26,
+    "feature_score": [
+      {
+        "feature_name": "occaecat",
+        "score": 3
+      },
+      {
+        "feature_name": "ullamco",
+        "score": 0
+      },
+      {
+        "feature_name": "excepteur",
+        "score": 1
+      },
+      {
+        "feature_name": "aliquip",
+        "score": -1
+      },
+      {
+        "feature_name": "pariatur",
+        "score": -4
+      }
+    ],
+    "total_score": -19,
+    "risk_percentage": 100,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 27,
+    "feature_score": [
+      {
+        "feature_name": "labore",
+        "score": -5
+      },
+      {
+        "feature_name": "quis",
+        "score": -2
+      },
+      {
+        "feature_name": "occaecat",
+        "score": -4
+      },
+      {
+        "feature_name": "nisi",
+        "score": -5
+      },
+      {
+        "feature_name": "occaecat",
+        "score": -4
+      }
+    ],
+    "total_score": -20,
+    "risk_percentage": 44,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 28,
+    "feature_score": [
+      {
+        "feature_name": "ipsum",
+        "score": -4
+      },
+      {
+        "feature_name": "veniam",
+        "score": 3
+      },
+      {
+        "feature_name": "quis",
+        "score": 3
+      },
+      {
+        "feature_name": "commodo",
+        "score": 0
+      },
+      {
+        "feature_name": "ad",
+        "score": 4
+      }
+    ],
+    "total_score": 4,
+    "risk_percentage": 28,
+    "label": "fraud"
+  },
+  {
+    "account_id": 29,
+    "feature_score": [
+      {
+        "feature_name": "enim",
+        "score": 0
+      },
+      {
+        "feature_name": "ex",
+        "score": 2
+      },
+      {
+        "feature_name": "ut",
+        "score": -1
+      },
+      {
+        "feature_name": "labore",
+        "score": 5
+      },
+      {
+        "feature_name": "non",
+        "score": -2
+      }
+    ],
+    "total_score": 8,
+    "risk_percentage": 72,
+    "label": "fraud"
+  },
+  {
+    "account_id": 30,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 3
+      },
+      {
+        "feature_name": "quis",
+        "score": 0
+      },
+      {
+        "feature_name": "voluptate",
+        "score": -3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -4
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -1
+      }
+    ],
+    "total_score": 4,
+    "risk_percentage": 79,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 31,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 2
+      },
+      {
+        "feature_name": "Lorem",
+        "score": -5
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 5
+      },
+      {
+        "feature_name": "mollit",
+        "score": 4
+      },
+      {
+        "feature_name": "voluptate",
+        "score": 1
+      }
+    ],
+    "total_score": 14,
+    "risk_percentage": 95,
+    "label": "fraud"
+  },
+  {
+    "account_id": 32,
+    "feature_score": [
+      {
+        "feature_name": "id",
+        "score": 1
+      },
+      {
+        "feature_name": "esse",
+        "score": -4
+      },
+      {
+        "feature_name": "amet",
+        "score": 3
+      },
+      {
+        "feature_name": "irure",
+        "score": -2
+      },
+      {
+        "feature_name": "cillum",
+        "score": -1
+      }
+    ],
+    "total_score": -16,
+    "risk_percentage": 19,
+    "label": "fraud"
+  },
+  {
+    "account_id": 33,
+    "feature_score": [
+      {
+        "feature_name": "ad",
+        "score": 5
+      },
+      {
+        "feature_name": "excepteur",
+        "score": 4
+      },
+      {
+        "feature_name": "labore",
+        "score": 3
+      },
+      {
+        "feature_name": "irure",
+        "score": 3
+      },
+      {
+        "feature_name": "sint",
+        "score": -2
+      }
+    ],
+    "total_score": 2,
+    "risk_percentage": 29,
+    "label": "fraud"
+  },
+  {
+    "account_id": 34,
+    "feature_score": [
+      {
+        "feature_name": "ea",
+        "score": 3
+      },
+      {
+        "feature_name": "Lorem",
+        "score": 5
+      },
+      {
+        "feature_name": "quis",
+        "score": -4
+      },
+      {
+        "feature_name": "labore",
+        "score": -4
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 1
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 65,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 35,
+    "feature_score": [
+      {
+        "feature_name": "in",
+        "score": 2
+      },
+      {
+        "feature_name": "fugiat",
+        "score": 1
+      },
+      {
+        "feature_name": "voluptate",
+        "score": 0
+      },
+      {
+        "feature_name": "nulla",
+        "score": -3
+      },
+      {
+        "feature_name": "dolore",
+        "score": 1
+      }
+    ],
+    "total_score": 2,
+    "risk_percentage": 48,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 36,
+    "feature_score": [
+      {
+        "feature_name": "id",
+        "score": 4
+      },
+      {
+        "feature_name": "cillum",
+        "score": 2
+      },
+      {
+        "feature_name": "nisi",
+        "score": -1
+      },
+      {
+        "feature_name": "tempor",
+        "score": 3
+      },
+      {
+        "feature_name": "amet",
+        "score": 3
+      }
+    ],
+    "total_score": -4,
+    "risk_percentage": 56,
+    "label": "fraud"
+  },
+  {
+    "account_id": 37,
+    "feature_score": [
+      {
+        "feature_name": "enim",
+        "score": 3
+      },
+      {
+        "feature_name": "laboris",
+        "score": -2
+      },
+      {
+        "feature_name": "incididunt",
+        "score": -4
+      },
+      {
+        "feature_name": "sint",
+        "score": 5
+      },
+      {
+        "feature_name": "in",
+        "score": -4
+      }
+    ],
+    "total_score": -20,
+    "risk_percentage": 22,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 38,
+    "feature_score": [
+      {
+        "feature_name": "mollit",
+        "score": -2
+      },
+      {
+        "feature_name": "commodo",
+        "score": 0
+      },
+      {
+        "feature_name": "ea",
+        "score": -3
+      },
+      {
+        "feature_name": "tempor",
+        "score": 2
+      },
+      {
+        "feature_name": "mollit",
+        "score": -1
+      }
+    ],
+    "total_score": -3,
+    "risk_percentage": 53,
+    "label": "fraud"
+  },
+  {
+    "account_id": 39,
+    "feature_score": [
+      {
+        "feature_name": "eiusmod",
+        "score": -3
+      },
+      {
+        "feature_name": "nulla",
+        "score": 3
+      },
+      {
+        "feature_name": "tempor",
+        "score": -4
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": 3
+      },
+      {
+        "feature_name": "magna",
+        "score": 3
+      }
+    ],
+    "total_score": -4,
+    "risk_percentage": 70,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 40,
+    "feature_score": [
+      {
+        "feature_name": "nulla",
+        "score": 1
+      },
+      {
+        "feature_name": "deserunt",
+        "score": 3
+      },
+      {
+        "feature_name": "non",
+        "score": -5
+      },
+      {
+        "feature_name": "Lorem",
+        "score": -1
+      },
+      {
+        "feature_name": "sint",
+        "score": 5
+      }
+    ],
+    "total_score": 12,
+    "risk_percentage": 77,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 41,
+    "feature_score": [
+      {
+        "feature_name": "dolor",
+        "score": 5
+      },
+      {
+        "feature_name": "deserunt",
+        "score": -3
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 1
+      },
+      {
+        "feature_name": "qui",
+        "score": 4
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 2
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 67,
+    "label": "fraud"
+  },
+  {
+    "account_id": 42,
+    "feature_score": [
+      {
+        "feature_name": "magna",
+        "score": 0
+      },
+      {
+        "feature_name": "consequat",
+        "score": -3
+      },
+      {
+        "feature_name": "esse",
+        "score": -1
+      },
+      {
+        "feature_name": "voluptate",
+        "score": -3
+      },
+      {
+        "feature_name": "deserunt",
+        "score": -1
+      }
+    ],
+    "total_score": -14,
+    "risk_percentage": 84,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 43,
+    "feature_score": [
+      {
+        "feature_name": "do",
+        "score": 1
+      },
+      {
+        "feature_name": "fugiat",
+        "score": -2
+      },
+      {
+        "feature_name": "fugiat",
+        "score": -1
+      },
+      {
+        "feature_name": "officia",
+        "score": -3
+      },
+      {
+        "feature_name": "enim",
+        "score": -3
+      }
+    ],
+    "total_score": -13,
+    "risk_percentage": 68,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 44,
+    "feature_score": [
+      {
+        "feature_name": "veniam",
+        "score": -1
+      },
+      {
+        "feature_name": "adipisicing",
+        "score": -1
+      },
+      {
+        "feature_name": "sit",
+        "score": 4
+      },
+      {
+        "feature_name": "sit",
+        "score": 5
+      },
+      {
+        "feature_name": "pariatur",
+        "score": -2
+      }
+    ],
+    "total_score": 8,
+    "risk_percentage": 29,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 45,
+    "feature_score": [
+      {
+        "feature_name": "mollit",
+        "score": 3
+      },
+      {
+        "feature_name": "commodo",
+        "score": -4
+      },
+      {
+        "feature_name": "culpa",
+        "score": 3
+      },
+      {
+        "feature_name": "qui",
+        "score": 1
+      },
+      {
+        "feature_name": "incididunt",
+        "score": 3
+      }
+    ],
+    "total_score": 16,
+    "risk_percentage": 15,
+    "label": "fraud"
+  },
+  {
+    "account_id": 46,
+    "feature_score": [
+      {
+        "feature_name": "aliquip",
+        "score": 4
+      },
+      {
+        "feature_name": "ea",
+        "score": 1
+      },
+      {
+        "feature_name": "qui",
+        "score": 4
+      },
+      {
+        "feature_name": "amet",
+        "score": 3
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 0
+      }
+    ],
+    "total_score": -7,
+    "risk_percentage": 25,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 47,
+    "feature_score": [
+      {
+        "feature_name": "non",
+        "score": -3
+      },
+      {
+        "feature_name": "veniam",
+        "score": -1
+      },
+      {
+        "feature_name": "esse",
+        "score": -1
+      },
+      {
+        "feature_name": "pariatur",
+        "score": 1
+      },
+      {
+        "feature_name": "sunt",
+        "score": -4
+      }
+    ],
+    "total_score": -18,
+    "risk_percentage": 16,
+    "label": "fraud"
+  },
+  {
+    "account_id": 48,
+    "feature_score": [
+      {
+        "feature_name": "dolore",
+        "score": -3
+      },
+      {
+        "feature_name": "deserunt",
+        "score": -4
+      },
+      {
+        "feature_name": "sit",
+        "score": 3
+      },
+      {
+        "feature_name": "dolor",
+        "score": 4
+      },
+      {
+        "feature_name": "laboris",
+        "score": 3
+      }
+    ],
+    "total_score": 7,
+    "risk_percentage": 38,
+    "label": "fraud"
+  },
+  {
+    "account_id": 49,
+    "feature_score": [
+      {
+        "feature_name": "ipsum",
+        "score": -2
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 1
+      },
+      {
+        "feature_name": "sit",
+        "score": -4
+      },
+      {
+        "feature_name": "labore",
+        "score": 3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": 1
+      }
+    ],
+    "total_score": -13,
+    "risk_percentage": 94,
+    "label": "fraud"
+  },
+  {
+    "account_id": 50,
+    "feature_score": [
+      {
+        "feature_name": "ad",
+        "score": 4
+      },
+      {
+        "feature_name": "amet",
+        "score": 0
+      },
+      {
+        "feature_name": "tempor",
+        "score": 2
+      },
+      {
+        "feature_name": "dolore",
+        "score": -2
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 1
+      }
+    ],
+    "total_score": 7,
+    "risk_percentage": 91,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 51,
+    "feature_score": [
+      {
+        "feature_name": "sint",
+        "score": 5
+      },
+      {
+        "feature_name": "esse",
+        "score": -1
+      },
+      {
+        "feature_name": "ea",
+        "score": 0
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": -2
+      },
+      {
+        "feature_name": "sunt",
+        "score": -1
+      }
+    ],
+    "total_score": 12,
+    "risk_percentage": 82,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 52,
+    "feature_score": [
+      {
+        "feature_name": "velit",
+        "score": 2
+      },
+      {
+        "feature_name": "velit",
+        "score": -5
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 5
+      },
+      {
+        "feature_name": "dolor",
+        "score": 1
+      },
+      {
+        "feature_name": "in",
+        "score": -5
+      }
+    ],
+    "total_score": -19,
+    "risk_percentage": 79,
+    "label": "fraud"
+  },
+  {
+    "account_id": 53,
+    "feature_score": [
+      {
+        "feature_name": "enim",
+        "score": 1
+      },
+      {
+        "feature_name": "consectetur",
+        "score": -4
+      },
+      {
+        "feature_name": "esse",
+        "score": 2
+      },
+      {
+        "feature_name": "laboris",
+        "score": -1
+      },
+      {
+        "feature_name": "nulla",
+        "score": 0
+      }
+    ],
+    "total_score": 19,
+    "risk_percentage": 53,
+    "label": "fraud"
+  },
+  {
+    "account_id": 54,
+    "feature_score": [
+      {
+        "feature_name": "eiusmod",
+        "score": 2
+      },
+      {
+        "feature_name": "enim",
+        "score": 0
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -4
+      },
+      {
+        "feature_name": "occaecat",
+        "score": -4
+      },
+      {
+        "feature_name": "occaecat",
+        "score": -3
+      }
+    ],
+    "total_score": 7,
+    "risk_percentage": 5,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 55,
+    "feature_score": [
+      {
+        "feature_name": "consequat",
+        "score": 0
+      },
+      {
+        "feature_name": "nostrud",
+        "score": -3
+      },
+      {
+        "feature_name": "tempor",
+        "score": -3
+      },
+      {
+        "feature_name": "esse",
+        "score": 3
+      },
+      {
+        "feature_name": "minim",
+        "score": -4
+      }
+    ],
+    "total_score": 8,
+    "risk_percentage": 98,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 56,
+    "feature_score": [
+      {
+        "feature_name": "in",
+        "score": -1
+      },
+      {
+        "feature_name": "quis",
+        "score": 5
+      },
+      {
+        "feature_name": "minim",
+        "score": -1
+      },
+      {
+        "feature_name": "mollit",
+        "score": 1
+      },
+      {
+        "feature_name": "velit",
+        "score": 0
+      }
+    ],
+    "total_score": 3,
+    "risk_percentage": 98,
+    "label": "fraud"
+  },
+  {
+    "account_id": 57,
+    "feature_score": [
+      {
+        "feature_name": "tempor",
+        "score": -4
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 4
+      },
+      {
+        "feature_name": "esse",
+        "score": -4
+      },
+      {
+        "feature_name": "commodo",
+        "score": 0
+      },
+      {
+        "feature_name": "voluptate",
+        "score": 3
+      }
+    ],
+    "total_score": 15,
+    "risk_percentage": 99,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 58,
+    "feature_score": [
+      {
+        "feature_name": "ad",
+        "score": -1
+      },
+      {
+        "feature_name": "sint",
+        "score": -4
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": 4
+      },
+      {
+        "feature_name": "exercitation",
+        "score": -1
+      },
+      {
+        "feature_name": "eu",
+        "score": 3
+      }
+    ],
+    "total_score": 2,
+    "risk_percentage": 19,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 59,
+    "feature_score": [
+      {
+        "feature_name": "ut",
+        "score": -2
+      },
+      {
+        "feature_name": "laborum",
+        "score": 2
+      },
+      {
+        "feature_name": "officia",
+        "score": -1
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 4
+      },
+      {
+        "feature_name": "ea",
+        "score": 5
+      }
+    ],
+    "total_score": -17,
+    "risk_percentage": 16,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 60,
+    "feature_score": [
+      {
+        "feature_name": "commodo",
+        "score": -3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": 5
+      },
+      {
+        "feature_name": "anim",
+        "score": 0
+      },
+      {
+        "feature_name": "quis",
+        "score": 2
+      },
+      {
+        "feature_name": "enim",
+        "score": 5
+      }
+    ],
+    "total_score": -8,
+    "risk_percentage": 26,
+    "label": "fraud"
+  },
+  {
+    "account_id": 61,
+    "feature_score": [
+      {
+        "feature_name": "irure",
+        "score": -4
+      },
+      {
+        "feature_name": "esse",
+        "score": -5
+      },
+      {
+        "feature_name": "duis",
+        "score": -5
+      },
+      {
+        "feature_name": "mollit",
+        "score": -4
+      },
+      {
+        "feature_name": "ex",
+        "score": -5
+      }
+    ],
+    "total_score": 4,
+    "risk_percentage": 85,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 62,
+    "feature_score": [
+      {
+        "feature_name": "reprehenderit",
+        "score": 1
+      },
+      {
+        "feature_name": "aute",
+        "score": 4
+      },
+      {
+        "feature_name": "duis",
+        "score": -2
+      },
+      {
+        "feature_name": "sit",
+        "score": -3
+      },
+      {
+        "feature_name": "ea",
+        "score": 0
+      }
+    ],
+    "total_score": -15,
+    "risk_percentage": 35,
+    "label": "fraud"
+  },
+  {
+    "account_id": 63,
+    "feature_score": [
+      {
+        "feature_name": "proident",
+        "score": -5
+      },
+      {
+        "feature_name": "commodo",
+        "score": -5
+      },
+      {
+        "feature_name": "sint",
+        "score": 3
+      },
+      {
+        "feature_name": "tempor",
+        "score": 2
+      },
+      {
+        "feature_name": "cillum",
+        "score": -1
+      }
+    ],
+    "total_score": 5,
+    "risk_percentage": 87,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 64,
+    "feature_score": [
+      {
+        "feature_name": "commodo",
+        "score": -3
+      },
+      {
+        "feature_name": "officia",
+        "score": 2
+      },
+      {
+        "feature_name": "culpa",
+        "score": -4
+      },
+      {
+        "feature_name": "fugiat",
+        "score": -3
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 4
+      }
+    ],
+    "total_score": 5,
+    "risk_percentage": 11,
+    "label": "fraud"
+  },
+  {
+    "account_id": 65,
+    "feature_score": [
+      {
+        "feature_name": "dolore",
+        "score": -3
+      },
+      {
+        "feature_name": "commodo",
+        "score": -1
+      },
+      {
+        "feature_name": "enim",
+        "score": 5
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -2
+      },
+      {
+        "feature_name": "sit",
+        "score": -4
+      }
+    ],
+    "total_score": -10,
+    "risk_percentage": 23,
+    "label": "fraud"
+  },
+  {
+    "account_id": 66,
+    "feature_score": [
+      {
+        "feature_name": "commodo",
+        "score": 4
+      },
+      {
+        "feature_name": "consequat",
+        "score": -1
+      },
+      {
+        "feature_name": "Lorem",
+        "score": -2
+      },
+      {
+        "feature_name": "laborum",
+        "score": 2
+      },
+      {
+        "feature_name": "ut",
+        "score": 5
+      }
+    ],
+    "total_score": 1,
+    "risk_percentage": 64,
+    "label": "fraud"
+  },
+  {
+    "account_id": 67,
+    "feature_score": [
+      {
+        "feature_name": "cillum",
+        "score": 3
+      },
+      {
+        "feature_name": "dolor",
+        "score": 5
+      },
+      {
+        "feature_name": "enim",
+        "score": -3
+      },
+      {
+        "feature_name": "non",
+        "score": -3
+      },
+      {
+        "feature_name": "enim",
+        "score": -1
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 34,
+    "label": "fraud"
+  },
+  {
+    "account_id": 68,
+    "feature_score": [
+      {
+        "feature_name": "quis",
+        "score": 5
+      },
+      {
+        "feature_name": "ad",
+        "score": 1
+      },
+      {
+        "feature_name": "ipsum",
+        "score": 4
+      },
+      {
+        "feature_name": "veniam",
+        "score": -3
+      },
+      {
+        "feature_name": "dolore",
+        "score": -3
+      }
+    ],
+    "total_score": -17,
+    "risk_percentage": 85,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 69,
+    "feature_score": [
+      {
+        "feature_name": "incididunt",
+        "score": -5
+      },
+      {
+        "feature_name": "velit",
+        "score": 4
+      },
+      {
+        "feature_name": "quis",
+        "score": 3
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": 0
+      },
+      {
+        "feature_name": "voluptate",
+        "score": -5
+      }
+    ],
+    "total_score": 17,
+    "risk_percentage": 21,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 70,
+    "feature_score": [
+      {
+        "feature_name": "laboris",
+        "score": 0
+      },
+      {
+        "feature_name": "incididunt",
+        "score": 1
+      },
+      {
+        "feature_name": "deserunt",
+        "score": 4
+      },
+      {
+        "feature_name": "et",
+        "score": -2
+      },
+      {
+        "feature_name": "aute",
+        "score": 3
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 1,
+    "label": "fraud"
+  },
+  {
+    "account_id": 71,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 2
+      },
+      {
+        "feature_name": "laboris",
+        "score": 3
+      },
+      {
+        "feature_name": "commodo",
+        "score": 3
+      },
+      {
+        "feature_name": "pariatur",
+        "score": 2
+      },
+      {
+        "feature_name": "incididunt",
+        "score": -1
+      }
+    ],
+    "total_score": -18,
+    "risk_percentage": 96,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 72,
+    "feature_score": [
+      {
+        "feature_name": "qui",
+        "score": -5
+      },
+      {
+        "feature_name": "mollit",
+        "score": -3
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": -4
+      },
+      {
+        "feature_name": "anim",
+        "score": -4
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": -1
+      }
+    ],
+    "total_score": 11,
+    "risk_percentage": 34,
+    "label": "fraud"
+  },
+  {
+    "account_id": 73,
+    "feature_score": [
+      {
+        "feature_name": "eu",
+        "score": -3
+      },
+      {
+        "feature_name": "ipsum",
+        "score": 0
+      },
+      {
+        "feature_name": "do",
+        "score": -5
+      },
+      {
+        "feature_name": "laboris",
+        "score": 2
+      },
+      {
+        "feature_name": "excepteur",
+        "score": 3
+      }
+    ],
+    "total_score": 6,
+    "risk_percentage": 33,
+    "label": "fraud"
+  },
+  {
+    "account_id": 74,
+    "feature_score": [
+      {
+        "feature_name": "commodo",
+        "score": 3
+      },
+      {
+        "feature_name": "aliquip",
+        "score": -3
+      },
+      {
+        "feature_name": "sint",
+        "score": 2
+      },
+      {
+        "feature_name": "aute",
+        "score": -3
+      },
+      {
+        "feature_name": "magna",
+        "score": -4
+      }
+    ],
+    "total_score": -19,
+    "risk_percentage": 15,
+    "label": "fraud"
+  },
+  {
+    "account_id": 75,
+    "feature_score": [
+      {
+        "feature_name": "dolor",
+        "score": -5
+      },
+      {
+        "feature_name": "veniam",
+        "score": 3
+      },
+      {
+        "feature_name": "incididunt",
+        "score": -3
+      },
+      {
+        "feature_name": "commodo",
+        "score": -5
+      },
+      {
+        "feature_name": "laborum",
+        "score": 3
+      }
+    ],
+    "total_score": -8,
+    "risk_percentage": 74,
+    "label": "fraud"
+  },
+  {
+    "account_id": 76,
+    "feature_score": [
+      {
+        "feature_name": "adipisicing",
+        "score": 0
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": -5
+      },
+      {
+        "feature_name": "labore",
+        "score": -1
+      },
+      {
+        "feature_name": "dolor",
+        "score": 4
+      },
+      {
+        "feature_name": "tempor",
+        "score": -1
+      }
+    ],
+    "total_score": -8,
+    "risk_percentage": 74,
+    "label": "fraud"
+  },
+  {
+    "account_id": 77,
+    "feature_score": [
+      {
+        "feature_name": "laboris",
+        "score": 3
+      },
+      {
+        "feature_name": "proident",
+        "score": -2
+      },
+      {
+        "feature_name": "consectetur",
+        "score": -5
+      },
+      {
+        "feature_name": "adipisicing",
+        "score": -1
+      },
+      {
+        "feature_name": "pariatur",
+        "score": -1
+      }
+    ],
+    "total_score": -16,
+    "risk_percentage": 33,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 78,
+    "feature_score": [
+      {
+        "feature_name": "laborum",
+        "score": 5
+      },
+      {
+        "feature_name": "ex",
+        "score": 4
+      },
+      {
+        "feature_name": "consectetur",
+        "score": -5
+      },
+      {
+        "feature_name": "voluptate",
+        "score": 2
+      },
+      {
+        "feature_name": "culpa",
+        "score": 3
+      }
+    ],
+    "total_score": -19,
+    "risk_percentage": 98,
+    "label": "fraud"
+  },
+  {
+    "account_id": 79,
+    "feature_score": [
+      {
+        "feature_name": "fugiat",
+        "score": 1
+      },
+      {
+        "feature_name": "ipsum",
+        "score": 1
+      },
+      {
+        "feature_name": "elit",
+        "score": 5
+      },
+      {
+        "feature_name": "veniam",
+        "score": -5
+      },
+      {
+        "feature_name": "dolor",
+        "score": -4
+      }
+    ],
+    "total_score": 16,
+    "risk_percentage": 65,
+    "label": "fraud"
+  },
+  {
+    "account_id": 80,
+    "feature_score": [
+      {
+        "feature_name": "ipsum",
+        "score": 4
+      },
+      {
+        "feature_name": "irure",
+        "score": 0
+      },
+      {
+        "feature_name": "ut",
+        "score": 0
+      },
+      {
+        "feature_name": "tempor",
+        "score": 2
+      },
+      {
+        "feature_name": "cillum",
+        "score": 0
+      }
+    ],
+    "total_score": -6,
+    "risk_percentage": 26,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 81,
+    "feature_score": [
+      {
+        "feature_name": "nostrud",
+        "score": 2
+      },
+      {
+        "feature_name": "aute",
+        "score": -2
+      },
+      {
+        "feature_name": "veniam",
+        "score": 3
+      },
+      {
+        "feature_name": "qui",
+        "score": 3
+      },
+      {
+        "feature_name": "qui",
+        "score": 3
+      }
+    ],
+    "total_score": 16,
+    "risk_percentage": 18,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 82,
+    "feature_score": [
+      {
+        "feature_name": "elit",
+        "score": 3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -3
+      },
+      {
+        "feature_name": "non",
+        "score": 2
+      },
+      {
+        "feature_name": "dolore",
+        "score": 0
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": 4
+      }
+    ],
+    "total_score": -9,
+    "risk_percentage": 41,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 83,
+    "feature_score": [
+      {
+        "feature_name": "deserunt",
+        "score": 4
+      },
+      {
+        "feature_name": "aute",
+        "score": 5
+      },
+      {
+        "feature_name": "officia",
+        "score": 1
+      },
+      {
+        "feature_name": "tempor",
+        "score": 2
+      },
+      {
+        "feature_name": "eu",
+        "score": -4
+      }
+    ],
+    "total_score": -1,
+    "risk_percentage": 16,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 84,
+    "feature_score": [
+      {
+        "feature_name": "do",
+        "score": -1
+      },
+      {
+        "feature_name": "qui",
+        "score": -3
+      },
+      {
+        "feature_name": "enim",
+        "score": 4
+      },
+      {
+        "feature_name": "exercitation",
+        "score": -2
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": 4
+      }
+    ],
+    "total_score": 6,
+    "risk_percentage": 61,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 85,
+    "feature_score": [
+      {
+        "feature_name": "laborum",
+        "score": -3
+      },
+      {
+        "feature_name": "aute",
+        "score": -2
+      },
+      {
+        "feature_name": "eu",
+        "score": -5
+      },
+      {
+        "feature_name": "exercitation",
+        "score": -5
+      },
+      {
+        "feature_name": "tempor",
+        "score": 3
+      }
+    ],
+    "total_score": -20,
+    "risk_percentage": 71,
+    "label": "fraud"
+  },
+  {
+    "account_id": 86,
+    "feature_score": [
+      {
+        "feature_name": "dolore",
+        "score": 0
+      },
+      {
+        "feature_name": "proident",
+        "score": 5
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -3
+      },
+      {
+        "feature_name": "ullamco",
+        "score": 2
+      },
+      {
+        "feature_name": "dolor",
+        "score": -1
+      }
+    ],
+    "total_score": -12,
+    "risk_percentage": 97,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 87,
+    "feature_score": [
+      {
+        "feature_name": "consectetur",
+        "score": 0
+      },
+      {
+        "feature_name": "irure",
+        "score": 3
+      },
+      {
+        "feature_name": "nostrud",
+        "score": 1
+      },
+      {
+        "feature_name": "pariatur",
+        "score": -5
+      },
+      {
+        "feature_name": "nisi",
+        "score": 3
+      }
+    ],
+    "total_score": 16,
+    "risk_percentage": 68,
+    "label": "fraud"
+  },
+  {
+    "account_id": 88,
+    "feature_score": [
+      {
+        "feature_name": "pariatur",
+        "score": 3
+      },
+      {
+        "feature_name": "elit",
+        "score": -5
+      },
+      {
+        "feature_name": "eiusmod",
+        "score": -3
+      },
+      {
+        "feature_name": "cupidatat",
+        "score": -4
+      },
+      {
+        "feature_name": "aliqua",
+        "score": 4
+      }
+    ],
+    "total_score": 4,
+    "risk_percentage": 26,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 89,
+    "feature_score": [
+      {
+        "feature_name": "dolor",
+        "score": -2
+      },
+      {
+        "feature_name": "consectetur",
+        "score": 4
+      },
+      {
+        "feature_name": "elit",
+        "score": 2
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 2
+      },
+      {
+        "feature_name": "sunt",
+        "score": -3
+      }
+    ],
+    "total_score": -6,
+    "risk_percentage": 4,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 90,
+    "feature_score": [
+      {
+        "feature_name": "laborum",
+        "score": -3
+      },
+      {
+        "feature_name": "ad",
+        "score": -5
+      },
+      {
+        "feature_name": "magna",
+        "score": -5
+      },
+      {
+        "feature_name": "eu",
+        "score": -2
+      },
+      {
+        "feature_name": "non",
+        "score": -3
+      }
+    ],
+    "total_score": 11,
+    "risk_percentage": 22,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 91,
+    "feature_score": [
+      {
+        "feature_name": "magna",
+        "score": -5
+      },
+      {
+        "feature_name": "in",
+        "score": -5
+      },
+      {
+        "feature_name": "do",
+        "score": -1
+      },
+      {
+        "feature_name": "quis",
+        "score": 5
+      },
+      {
+        "feature_name": "pariatur",
+        "score": 1
+      }
+    ],
+    "total_score": 1,
+    "risk_percentage": 27,
+    "label": "fraud"
+  },
+  {
+    "account_id": 92,
+    "feature_score": [
+      {
+        "feature_name": "laborum",
+        "score": -3
+      },
+      {
+        "feature_name": "sunt",
+        "score": 4
+      },
+      {
+        "feature_name": "ex",
+        "score": 0
+      },
+      {
+        "feature_name": "elit",
+        "score": 2
+      },
+      {
+        "feature_name": "quis",
+        "score": 2
+      }
+    ],
+    "total_score": -9,
+    "risk_percentage": 64,
+    "label": "fraud"
+  },
+  {
+    "account_id": 93,
+    "feature_score": [
+      {
+        "feature_name": "nulla",
+        "score": 3
+      },
+      {
+        "feature_name": "deserunt",
+        "score": -5
+      },
+      {
+        "feature_name": "labore",
+        "score": 2
+      },
+      {
+        "feature_name": "sunt",
+        "score": 0
+      },
+      {
+        "feature_name": "ullamco",
+        "score": 3
+      }
+    ],
+    "total_score": 13,
+    "risk_percentage": 48,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 94,
+    "feature_score": [
+      {
+        "feature_name": "nisi",
+        "score": 3
+      },
+      {
+        "feature_name": "qui",
+        "score": -5
+      },
+      {
+        "feature_name": "do",
+        "score": -2
+      },
+      {
+        "feature_name": "nostrud",
+        "score": -1
+      },
+      {
+        "feature_name": "elit",
+        "score": -4
+      }
+    ],
+    "total_score": -12,
+    "risk_percentage": 48,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 95,
+    "feature_score": [
+      {
+        "feature_name": "culpa",
+        "score": 0
+      },
+      {
+        "feature_name": "laborum",
+        "score": -4
+      },
+      {
+        "feature_name": "enim",
+        "score": 4
+      },
+      {
+        "feature_name": "aute",
+        "score": 4
+      },
+      {
+        "feature_name": "cillum",
+        "score": -1
+      }
+    ],
+    "total_score": 11,
+    "risk_percentage": 45,
+    "label": "fraud"
+  },
+  {
+    "account_id": 96,
+    "feature_score": [
+      {
+        "feature_name": "dolore",
+        "score": -4
+      },
+      {
+        "feature_name": "aute",
+        "score": 3
+      },
+      {
+        "feature_name": "laborum",
+        "score": -4
+      },
+      {
+        "feature_name": "sint",
+        "score": 3
+      },
+      {
+        "feature_name": "voluptate",
+        "score": -2
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 43,
+    "label": "fraud"
+  },
+  {
+    "account_id": 97,
+    "feature_score": [
+      {
+        "feature_name": "et",
+        "score": -5
+      },
+      {
+        "feature_name": "Lorem",
+        "score": -1
+      },
+      {
+        "feature_name": "ipsum",
+        "score": 2
+      },
+      {
+        "feature_name": "amet",
+        "score": 4
+      },
+      {
+        "feature_name": "anim",
+        "score": -4
+      }
+    ],
+    "total_score": 18,
+    "risk_percentage": 85,
+    "label": "fraud"
+  },
+  {
+    "account_id": 98,
+    "feature_score": [
+      {
+        "feature_name": "adipisicing",
+        "score": -2
+      },
+      {
+        "feature_name": "sint",
+        "score": -1
+      },
+      {
+        "feature_name": "eu",
+        "score": -1
+      },
+      {
+        "feature_name": "amet",
+        "score": 4
+      },
+      {
+        "feature_name": "reprehenderit",
+        "score": -2
+      }
+    ],
+    "total_score": -3,
+    "risk_percentage": 2,
+    "label": "non-fraud"
+  },
+  {
+    "account_id": 99,
+    "feature_score": [
+      {
+        "feature_name": "nulla",
+        "score": -3
+      },
+      {
+        "feature_name": "occaecat",
+        "score": 5
+      },
+      {
+        "feature_name": "consectetur",
+        "score": 2
+      },
+      {
+        "feature_name": "elit",
+        "score": -3
+      },
+      {
+        "feature_name": "magna",
+        "score": -2
+      }
+    ],
+    "total_score": 20,
+    "risk_percentage": 17,
+    "label": "fraud"
+  }
+]
