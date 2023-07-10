@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "eslint-disable && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -33,6 +33,7 @@
     "react-paginate": "^8.1.4",
     "react-redux": "^8.0.5",
     "react-resize-detector": "^7.1.2",
+    "scheduler": "^0.23.0",
     "swr": "^2.1.0"
   },
   "devDependencies": {
@@ -54,7 +55,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "json-server": "^0.17.2",
-    "sass": "^1.59.3",
+    "sass": "^1.63.6",
     "typescript": "^5.0.2"
   }
 }

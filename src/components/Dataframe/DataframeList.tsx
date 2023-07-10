@@ -106,32 +106,60 @@ export default function DataframeList(props: Props) {
     openBlockModal(accountId);
   };
 
+  // useEffect(() => {
+  //   // Fetch the account status on component mount
+  //   const fetchAccountStatus = async () => {
+  //     for (const row of dataframes) {
+  //       try {
+  //         const response = await axios.get(
+  //           `${process.env.NEXT_PUBLIC_API_BASE_URL}status/${row.account_id}`
+  //         );
+  //         const { status } = response.data;
+  //         if (status === "Blocked") {
+  //           setBlockedAccounts((prevBlockedAccounts) => [
+  //             ...prevBlockedAccounts,
+  //             row.account_id,
+  //           ]);
+  //         }
+  //       } catch (error) {
+  //         console.error(
+  //           `Error fetching account status for account ID ${row.account_id}:`,
+  //           error
+  //         );
+  //       }
+  //     }
+  //   };
+  // fetchAccountStatus();
+  // }, [dataframes]);
   useEffect(() => {
     // Fetch the account status on component mount
     const fetchAccountStatus = async () => {
-      for (const row of dataframes) {
-        try {
-          const response = await axios.get(
+      try {
+        const requests = dataframes.map((row) =>
+          axios.get(
             `${process.env.NEXT_PUBLIC_API_BASE_URL}status/${row.account_id}`
-          );
+          )
+        );
+
+        const responses = await Promise.all(requests);
+
+        responses.forEach((response, index) => {
           const { status } = response.data;
           if (status === "Blocked") {
             setBlockedAccounts((prevBlockedAccounts) => [
               ...prevBlockedAccounts,
-              row.account_id,
+              dataframes[index].account_id,
             ]);
           }
-        } catch (error) {
-          console.error(
-            `Error fetching account status for account ID ${row.account_id}:`,
-            error
-          );
-        }
+        });
+      } catch (error) {
+        console.error("Error fetching account status:", error);
       }
     };
 
     fetchAccountStatus();
   }, [dataframes]);
+
   if (dataframes.length === 0) {
     return <Alert variant="danger">Data not found.</Alert>;
   }

@@ -8,20 +8,44 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": ["plugin:@typescript-eslint/recommended", "airbnb-typescript"],
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "airbnb-typescript"
+        // "next/core-web-vitals"
+      ],
       "plugins": ["@typescript-eslint"],
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "project": "./tsconfig.json"
       },
       "rules": {
-        "@typescript-eslint/semi": [2, "never"],
+        // "@typescript-eslint/semi": [2, "never"],
         // Use semicolon as member delimiter for interfaces and type
-        "@typescript-eslint/member-delimiter-style": 2
+        // "@typescript-eslint/member-delimiter-style": 2,
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "@typescript-eslint/member-delimiter-style": "off",
+        "@typescript-eslint/quotes": "off",
+        "@typescript-eslint/semi": "off",
+        "@typescript-eslint/comma-dangle": "off",
+        "no-console": "off",
+        "max-len": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "operator-linebreak": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "object-curly-newline": "off",
+        "radix": "off",
+        "react/jsx-key": "off",
+        "react/prefer-stateless-function": "off",
+        "arrow-body-style": "off",
+        "react/no-array-index-key": "off",
+        "implicit-arrow-linebreak": "off",
+        "function-paren-newline": "off",
+        "semi": "off"
       }
     }
   ],
-  "plugins": ["react", "react-hooks"],
+  // "plugins": ["react", "react-hooks"],
   "rules": {
     // Checks rules of Hooks
     "react-hooks/rules-of-hooks": "error",

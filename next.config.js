@@ -2,12 +2,13 @@ const path = require("path");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  ignoreDuringBuilds: true,
+  // ignoreDuringBuilds: true,
   reactStrictMode: true,
   swcMinify: true,
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
-  },
+  // webpack5: false,
+  // sassOptions: {
+  //   includePaths: [path.join(__dirname, "styles")],
+  // },
   images: {
     domains: ["img.pokemondb.net"],
   },
