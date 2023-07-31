@@ -2,11 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/free-regular-svg-icons";
 import {
   faChevronUp,
-  faCode,
-  faGauge,
   faTable,
-  faLayerGroup,
   faBarChart,
+  faInfo,
 } from "@fortawesome/free-solid-svg-icons";
 import React, {
   PropsWithChildren,
@@ -132,32 +130,15 @@ const SidebarNavGroup = (props: SidebarNavGroupProps) => {
 export default function SidebarNav() {
   return (
     <ul className="list-unstyled">
+      <SidebarNavItem icon={faInfo} href="/model-detail">
+        Model Detail
+      </SidebarNavItem>
       <SidebarNavItem icon={faTable} href="/">
         Account Detail
       </SidebarNavItem>
       <SidebarNavItem icon={faBarChart} href="/insight">
         Insight
       </SidebarNavItem>
-      {/* <SidebarNavItem icon={faGauge} href="/">
-        Dashboard
-        <small className="ms-auto">
-          <Badge bg="info" className="ms-auto">
-            NEW
-          </Badge>
-        </small>
-      </SidebarNavItem>
-      <SidebarNavItem icon={faCode} href="/dataframes">
-        Sample (SSR)
-        <small className="ms-auto">
-          <Badge bg="danger" className="ms-auto">
-            DEMO
-          </Badge>
-        </small>
-      </SidebarNavItem>
-
-      <SidebarNavItem icon={faLayerGroup} href="https://coreui.io/pro/">
-        Try CoreUI PRO
-      </SidebarNavItem> */}
     </ul>
   );
 }

@@ -1,6 +1,6 @@
 import { GetServerSideProps, NextPage } from "next";
 import { AdminLayout } from "@layout";
-import { Card, Button, Form, Dropdown } from "react-bootstrap";
+import { Card, Button, Form, Dropdown, Accordion } from "react-bootstrap";
 
 import axios from "axios";
 import { Dataframe } from "@models/dataframe";
@@ -223,57 +223,7 @@ const Dataframes: NextPage<Props> = (props) => {
         </Form.Select>
       </Form.Group>
       <br />
-      <Card>
-        <Card.Header>Model {modelIndex} Details</Card.Header>
-        <Card.Body>
-          <div>
-            {/* <h1>The Risk Score is:</h1> */}
 
-            <div>
-              {/* Check if modelData is available */}
-              {modelData ? (
-                <ScoreCalculationTable riskScoreModel={modelData} />
-              ) : (
-                <p>Loading...</p>
-              )}
-            </div>
-          </div>
-        </Card.Body>
-      </Card>
-      <br />
-
-      <Card>
-        <Card.Header>Insight</Card.Header>
-        <Card.Body>
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="row">
-                <div className="col-6">
-                  <div className="border-start border-4 border-danger px-3 mb-3">
-                    <small className="text-black-50">Fraud</small>
-                    <div className="fs-5 fw-semibold">{fraudCount}</div>
-                  </div>
-                </div>
-                <div className="col-6">
-                  <div className="border-start border-4 border-success px-3 mb-3">
-                    <small className="text-black-50">Non-Fraud</small>
-                    <div className="fs-5 fw-semibold">{nonFraudCount}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            {/* Check if modelData is available */}
-            {insightData ? (
-              <InsightChart data={insightData} />
-            ) : (
-              <p>Loading...</p>
-            )}
-          </div>
-        </Card.Body>
-      </Card>
-      <br />
       <Card>
         <Card.Header>Data</Card.Header>
 
